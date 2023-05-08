@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ferrari 458 Advertisement</title>
+	<style>
+		body {
+			background-color: #f2f2f2;
+			font-family: Arial, sans-serif;
+		}
+
+		.container {
+			margin: 50px auto;
+			max-width: 800px;
+			background-color: #fff;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+			border-radius: 5px;
+			padding: 20px;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+			align-items: center;
+		}
+
+		h1 {
+			font-size: 36px;
+			margin: 0;
+			color: #e30613;
+			text-align: center;
+			padding-bottom: 20px;
+			border-bottom: 1px solid #e30613;
+		}
+
+		img {
+			width: 45%;
+			max-width: 350px;
+			margin-bottom: 20px;
+		}
+
+		.description {
+			flex: 1;
+			padding: 20px;
+		}
+
+		.price {
+			font-size: 28px;
+			font-weight: bold;
+			margin: 0;
+			color: #e30613;
+		}
+
+		.features {
+			margin-top: 20px;
+			padding-left: 20px;
+			font-size: 16px;
+		}
+
+		.features li {
+			margin-bottom: 10px;
+		}
+
+		.btn {
+			display: inline-block;
+			padding: 10px 20px;
+			background-color: #e30613;
+			color: #fff;
+			text-decoration: none;
+			border-radius: 5px;
+			font-size: 18px;
+			margin-top: 20px;
+			transition: all 0.3s ease-in-out;
+		}
+
+		.btn:hover {
+			background-color: #b4000e;
+			transform: translateY(-2px);
+			box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+		}
+
+		@media (max-width: 768px) {
+			.container {
+				flex-direction: column;
+				align-items: center;
+			}
+
+			img {
+				width: 80%;
+			}
+
+			.description {
+				flex: none;
+				text-align: center;
+			}
+
+			.features {
+				padding-left: 0;
+				text-align: center;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<img src="ferarri pic.jpg">
+		<div class="description">
+			<h1>Ferrari 458 Italia</h1>
+			<h2>By Nate Ang</h2>
+			<p class="price">$300,000</p>
+			<ul class="features">
+				<li>Engine: V8 4.5L</li>
+				<li>Horsepower: 570 hp</li>
+				<li>0-60 mph: 3.4 sec</li>
+				<li>Top speed: 202 mph</li>
+				<li>Transmission: 7-speed dual clutch automatic</li>
+			</ul>
+			<a href="#" class="btn">Contact Ferrari Dealer</a>
+		</div>
+	</
